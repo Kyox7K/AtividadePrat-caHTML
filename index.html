@@ -52,86 +52,105 @@
             <textarea name="notas" rows="4" cols="50"></textarea> <br> <br>
 
             <form action="/enviar" method="post">
-                
+                <input type="submit" value="Enviar">
+
             </form>
         </div>
-    </form>
-    <div>
-        <title>Historico de Consultas</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 20px;
-            }
-
-            h2 {
-                text-align: left;
-                margin-bottom: 10px;
-            }
-
-            table {
-                width: 100%;
-                border-collapse: collapse;
-                margin-bottom: 20px;
-            }
-
-            table,
-            th,
-            td {
-                border: 1px solid black;
-            }
-
-            th,
-            td {
-                padding: 8px;
-                text-align: left;
-            }
-
-            th {
-                background-color: #f2f2f2;
-            }
-
-            input[type="submit"] {
-                margin-bottom: 20px;
-            }
-        </style>
-        </head>
-
-        <body>
-
-            <form action="/submit_form" method="post">
-                <input type="submit" value="Enviar">
-            </form>
-
-            <h2>Histórico de Consultas</h2>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th>Data</th>
-                        <th>Médico</th>
-                        <th>Diagnóstico</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>20/08/2024</td>
-                        <td>Dr. João Silva</td>
-                        <td>Hipertensão</td>
-                    </tr>
-                    <tr>
-                        <td>15/07/2024</td>
-                        <td>Dra. Maria Oliveira</td>
-                        <td>Diabetes Tipo 2</td>
-                    </tr>
-                </tbody>
-            </table>
-
-
-
-
-    </div>
-
+        <h1>Histótico de Consultas</h1>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Médico</th>
+                    <th>Diagnóstico</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>20/08/2024</th>
+                    <th>Dr. João Silva</th>
+                    <th>Hipertensão</th>
+                </tr>
+                <tr>
+                    <th>15/07/2025</th>
+                    <td>Dra. Maria Oliveira</th>
+                    <td>Diabetes Tipo 2</th>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <div>
+                <h1>Medicamentos Prescritos</h1>
+                <table border="2">
+                    <thead>
+                        <tr>
+                            <th>Medicamento</th>
+                            <th>Dosagem</th>
+                            <th>Instruções</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Metformima</th>
+                            <th>500mg</th>
+                            <th>Tomar 1 vez ao dia</th>
+                        </tr>
+                        <tr>
+                            <th>Atenolol</th>
+                            <th>50mg</th>
+                            <th>Tomar 2 vezes ao dia</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <h1>Resultados de Exames</h1>
+                <table border="2">
+                    <thead>
+                    <tbody>
+                        <tr>
+                            <th>data</th>
+                            <th>Tipo de Exame</th>
+                            <th>Resultado</th>
+                        </tr>
+                        <tr>
+                            <th>10/08/2024</th>
+                            <th>hemograma</th>
+                            <th>Normal</th>
+                        </tr>
+                        <tr>
+                            <th>05/07/2024</th>
+                            <th>Colesterol</th>
+                            <th>Alto</th>
+                        </tr>
+                        </thead>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <h1>histórico de Cirurgias</h1>
+                <table border="2">
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Cirurgias</th>
+                            <th>Observações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>16/06/2023</th>
+                            <th>Cirurgia de Apendicite</th>
+                            <th>Recuperação sem complicações</th>
+                        </tr>
+                        <tr>
+                            <th>30/04/2022</th>
+                            <th>Cirurgia de Vesícula</th>
+                            <th>Recuperação com complicações</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 </body>
 
 </html>
